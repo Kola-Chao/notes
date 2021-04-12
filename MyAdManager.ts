@@ -303,7 +303,7 @@ export class MyAdManager {
     */
     private checkVersionWithNum(v1: any, v2?: any) {
         v1 = v1
-        v2 = v2 || this.getCurPlatform.getSystemInfoSync().SDKVersion;
+        v2 = v2 || this.getCurPlatform.getSystemInfoSync().platformVersionCode;
         if (v1 == v2) return 0;
         if (v1 > v2) {
             console.log(this.TAG, "运行版本号小于API最低版本要求");
