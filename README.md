@@ -9,3 +9,10 @@ Cocos打包：
 
 2:小米平台
   不仅要接SDK，还需要把配置资源给接入进去
+  
+Android 接入SDK：
+1:友盟
+    maven { url 'https://dl.bintray.com/umsdk/release' }
+   // 友盟统计SDK
+    implementation  'com.umeng.umsdk:common:9.3.7'// 必选
+    implementation  'com.umeng.umsdk:asms:1.2.1'// 必选
