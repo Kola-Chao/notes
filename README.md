@@ -11,8 +11,10 @@ Cocos打包：
   不仅要接SDK，还需要把配置资源给接入进去
   
 Android 接入SDK：
-1:友盟
+1:友盟 https://developer.umeng.com/docs/119267/detail/118584
     maven { url 'https://dl.bintray.com/umsdk/release' }
    // 友盟统计SDK
     implementation  'com.umeng.umsdk:common:9.3.7'// 必选
     implementation  'com.umeng.umsdk:asms:1.2.1'// 必选
+
+    修改AndroidManifest.xm
