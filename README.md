@@ -18,3 +18,6 @@ Android 接入SDK：
     implementation  'com.umeng.umsdk:asms:1.2.1'// 必选
 
     修改AndroidManifest.xm
+    
+2:火山引擎 https://www.volcengine.com/docs/6297/65851
+
