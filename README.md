@@ -12,6 +12,7 @@ Cocos打包：
 2:小米平台
   不仅要接SDK，还需要把配置资源给接入进去
   
+  
 Android 接入SDK：
 1:友盟 https://developer.umeng.com/docs/119267/detail/118584
     maven { url 'https://dl.bintray.com/umsdk/release' }
@@ -22,4 +23,10 @@ Android 接入SDK：
     修改AndroidManifest.xm
     
 2:火山引擎 https://www.volcengine.com/docs/6297/65851
+
+Q::java.lang.RuntimeException: Unable to get provider com.anythink.china.common.ApkFileProvider:
+A::android.useAndroidX=true
+# Automatically convert third-party libraries to use AndroidX
+android.enableJetifier=true
+
 
