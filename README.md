@@ -29,4 +29,5 @@ A::android.useAndroidX=true
 # Automatically convert third-party libraries to use AndroidX
 android.enableJetifier=true
 
-
+api30以上，不支持自定义toast（toast.setView & toase.getView）
+所有的handle.postdelay(new Runnable,delyTime)里的runnable里的操作的对象都可能会被回收，都要做处理
